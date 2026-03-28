@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Organizador de Pastas/1.0.0": {
+        "runtime": {
+          "Organizador de Pastas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Organizador de Pastas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

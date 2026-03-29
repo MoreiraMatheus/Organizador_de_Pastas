@@ -14,3 +14,4 @@ C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\Organizador_de_Pasta
 C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\Organizador_de_Pastas\Organizador de Pastas\obj\Debug\net8.0-windows\Organizador de Pastas.pdb
 C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\Organizador_de_Pastas\Organizador de Pastas\obj\Debug\net8.0-windows\Organizador de Pastas.genruntimeconfig.cache
 C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\Organizador_de_Pastas\Organizador de Pastas\obj\Debug\net8.0-windows\ref\Organizador de Pastas.dll
+C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\Organizador_de_Pastas\Organizador de Pastas\obj\Debug\net8.0-windows\Organizador de Pastas.sourcelink.json

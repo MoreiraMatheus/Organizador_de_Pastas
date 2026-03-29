@@ -17,16 +17,19 @@ namespace Organizador_de_Pastas
             List<string> pastas = BuscaPastas.Consulta(tb_caminho.Text);
 
             //se não tiver pastas para os arquivos deverá criar
+            CriaPastas.Criar(tb_caminho.Text + "\\");
+
+            //Varrer os arquivos um por um e pegar suas estensões
+            
+
+            //Mover os arquivos para as pastas designadas
                 //Documentos (docx, pdf, html)
                 //Músicas (mp3)
                 //Fotos (jpg, jpeg, img, ico, png)
                 //Vídeos (mp4)
                 //Planilhas (xlsx, xls, csv)
+                //Pastas
                 //Outros arquivos 
-
-            //Varrer os arquivos um por um e pegar suas estensões
-
-            //Mover os arquivos para as pastas designadas
 
         }
 

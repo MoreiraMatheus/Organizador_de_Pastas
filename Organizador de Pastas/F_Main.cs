@@ -20,7 +20,26 @@ namespace Organizador_de_Pastas
             CriaPastas.Criar(tb_caminho.Text + "\\");
 
             //Varrer os arquivos um por um e pegar suas estensões
-            
+            List<string> arquivos = BuscaArquivos.Consulta(tb_caminho.Text + "\\");
+            string mensagem = "";
+            mensagem += $"Foram encontrados {arquivos.Count} arquivos, sendo eles:\n";
+
+            List<string> documentos = new List<string>();
+            foreach (string documento in arquivos) {
+                string extensao = BuscaArquivos.DescobreExtensao(documento);
+                if(extensao == ".docx" || extensao == ".pdf" || extensao == ".html"){
+                    documentos.Add(documento);
+                }
+            }
+            mensagem += $"Documentos: {documentos.Count}\n";
+            mensagem += "Músicas: {}\n";
+            mensagem += "Fotos: {}\n";
+            mensagem += "Vídeos: {}\n";
+            mensagem += "Planilhas: {}\n";
+            mensagem += "Pastas: {}\n";
+            mensagem += "Outros arquivos {}";
+
+            MessageBox.Show(mensagem);
 
             //Mover os arquivos para as pastas designadas
                 //Documentos (docx, pdf, html)

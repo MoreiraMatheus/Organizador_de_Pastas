@@ -31,17 +31,12 @@ namespace Organizador_de_Pastas
                     documentos.Add(documento);
                 }
             }
-            mensagem += $"Documentos: {documentos.Count}\n";
-            mensagem += "Músicas: {}\n";
-            mensagem += "Fotos: {}\n";
-            mensagem += "Vídeos: {}\n";
-            mensagem += "Planilhas: {}\n";
-            mensagem += "Pastas: {}\n";
-            mensagem += "Outros arquivos {}";
 
-            MessageBox.Show(mensagem);
+
 
             //Mover os arquivos para as pastas designadas
+            MoveArquivos.separar(tb_caminho.Text + "\\" + documentos[0], tb_caminho.Text + "\\");
+            MessageBox.Show("arquivo movido");
                 //Documentos (docx, pdf, html)
                 //Músicas (mp3)
                 //Fotos (jpg, jpeg, img, ico, png)

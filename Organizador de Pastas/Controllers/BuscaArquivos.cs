@@ -14,7 +14,6 @@ namespace Organizador_de_Pastas.Controllers {
                 listaDeArquivos.Add(arquivo.Substring(diretorio.Length));
             }
 
-
             return listaDeArquivos;
         }
 

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\f_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|solutionrelative:f_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\controllers\\movearquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|solutionrelative:controllers\\movearquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\controllers\\criapastas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|solutionrelative:controllers\\criapastas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\f_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|solutionrelative:f_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\controllers\\buscaarquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\controllers\\buscapastas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|solutionrelative:controllers\\buscapastas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\controllers\\criapastas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|solutionrelative:controllers\\criapastas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +39,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CriaPastas.cs",
+              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\Controllers\\CriaPastas.cs",
+              "RelativeDocumentMoniker": "Controllers\\CriaPastas.cs",
+              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\Controllers\\CriaPastas.cs",
+              "RelativeToolTip": "Controllers\\CriaPastas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T01:36:54.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoveArquivos.cs",
+              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\Controllers\\MoveArquivos.cs",
+              "RelativeDocumentMoniker": "Controllers\\MoveArquivos.cs",
+              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\Controllers\\MoveArquivos.cs",
+              "RelativeToolTip": "Controllers\\MoveArquivos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T01:24:50.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,7 +87,7 @@
               "RelativeDocumentMoniker": "Controllers\\BuscaArquivos.cs",
               "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\Controllers\\BuscaArquivos.cs",
               "RelativeToolTip": "Controllers\\BuscaArquivos.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T01:41:32.614Z",
               "EditorCaption": ""
@@ -65,25 +95,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CriaPastas.cs",
-              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\Controllers\\CriaPastas.cs",
-              "RelativeDocumentMoniker": "Controllers\\CriaPastas.cs",
-              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\Controllers\\CriaPastas.cs",
-              "RelativeToolTip": "Controllers\\CriaPastas.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T17:36:38.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "F_Main.cs",
               "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\F_Main.cs",
               "RelativeDocumentMoniker": "F_Main.cs",
               "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\F_Main.cs",
               "RelativeToolTip": "F_Main.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowCEAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T00:51:35.54Z",
               "EditorCaption": ""

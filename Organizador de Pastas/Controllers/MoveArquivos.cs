@@ -18,9 +18,10 @@ namespace Organizador_de_Pastas.Controllers {
             string extensao = "";
             extensao = BuscaArquivos.DescobreExtensao(arquivo);
 
+            string arquivoAntigo = origem + arquivo;
+
             if (tiposDocumentos.Contains(extensao)) {
-                //TODO terminar essa lógica aqui
-                File.Move("C:\\Users\\famil\\Downloads\\Extrato_06_04_2026.pdf", "C:\\Users\\famil\\Downloads\\Documentos\\Extrato_06_04_2026.pdf");
+                File.Move(arquivoAntigo, origem + "Documentos\\" + arquivo);
             }
 
         }

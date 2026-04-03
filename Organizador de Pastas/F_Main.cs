@@ -35,7 +35,7 @@ namespace Organizador_de_Pastas
 
 
             //Mover os arquivos para as pastas designadas
-            MoveArquivos.separar(tb_caminho.Text + "\\" + documentos[0], tb_caminho.Text + "\\");
+            MoveArquivos.separar(documentos[0], tb_caminho.Text + "\\");
             MessageBox.Show("arquivo movido");
                 //Documentos (docx, pdf, html)
                 //Músicas (mp3)

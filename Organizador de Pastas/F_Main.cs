@@ -9,41 +9,26 @@ namespace Organizador_de_Pastas
 
         private void btn_selecionar_pasta_Click(object sender, EventArgs e) {
             fbd_Bucasdor.ShowDialog();
-            tb_caminho.Text = fbd_Bucasdor.SelectedPath;
+            tb_caminho.Text = fbd_Bucasdor.SelectedPath + "\\";
         }
 
         private void btn_organizar_Click(object sender, EventArgs e) {
-            //Buscar por pastas para colocar os arquivos
-            List<string> pastas = BuscaPastas.Consulta(tb_caminho.Text);
+            string caminho = tb_caminho.Text;
+
+            //Buscar por pastas para colocar os arquivos (por hora não será tão útil, mas quero dar a opção do usuário criar novas pastas, portanto essa função será util)
+            //List<string> pastas = BuscaPastas.Consulta(caminho);
 
             //se não tiver pastas para os arquivos deverá criar
-            CriaPastas.Criar(tb_caminho.Text + "\\");
+            CriaPastas.Criar(caminho);
 
             //Varrer os arquivos um por um e pegar suas estensões
-            List<string> arquivos = BuscaArquivos.Consulta(tb_caminho.Text + "\\");
-            string mensagem = "";
-            mensagem += $"Foram encontrados {arquivos.Count} arquivos, sendo eles:\n";
-
-            List<string> documentos = new List<string>();
-            foreach (string documento in arquivos) {
-                string extensao = BuscaArquivos.DescobreExtensao(documento);
-                if(extensao == ".docx" || extensao == ".pdf" || extensao == ".html"){
-                    documentos.Add(documento);
-                }
-            }
-
-
+            List<string> arquivos = BuscaArquivos.Consulta(caminho);
 
             //Mover os arquivos para as pastas designadas
-            MoveArquivos.separar(documentos[0], tb_caminho.Text + "\\");
-            MessageBox.Show("arquivo movido");
-                //Documentos (docx, pdf, html)
-                //Músicas (mp3)
-                //Fotos (jpg, jpeg, img, ico, png)
-                //Vídeos (mp4)
-                //Planilhas (xlsx, xls, csv)
-                //Pastas
-                //Outros arquivos 
+            for (int i = 0; i < arquivos.Count; i++) {
+                MoveArquivos.separar(caminho, arquivos[i]);
+            }
+            MessageBox.Show("Arquivos movidos");
 
         }
 

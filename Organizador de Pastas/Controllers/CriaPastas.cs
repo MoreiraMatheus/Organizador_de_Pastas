@@ -18,6 +18,7 @@ namespace Organizador_de_Pastas.Controllers {
             pastas.Add("Vídeos");
             pastas.Add("Planilhas");
             pastas.Add("Pastas");
+            pastas.Add("Aplicativos");
             pastas.Add("Outros Arquivos");
 
             foreach (string pasta in pastas) {

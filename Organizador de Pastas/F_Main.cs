@@ -16,20 +16,24 @@ namespace Organizador_de_Pastas
             string caminho = tb_caminho.Text;
 
             //Buscar por pastas para colocar os arquivos (por hora não será tão útil, mas quero dar a opção do usuário criar novas pastas, portanto essa função será util)
-            //List<string> pastas = BuscaPastas.Consulta(caminho);
-
-            //se não tiver pastas para os arquivos deverá criar
-            CriaPastas.Criar(caminho);
+            List<string> pastas = BuscaPastas.Consulta(caminho);
 
             //Varrer os arquivos um por um e pegar suas estensões
             List<string> arquivos = BuscaArquivos.Consulta(caminho);
+            
+            //se não tiver pastas para os arquivos deverá criar
+            CriaPastas.Criar(caminho);
 
             //Mover os arquivos para as pastas designadas
-            for (int i = 0; i < arquivos.Count; i++) {
-                MoveArquivos.separar(caminho, arquivos[i]);
+            for (int i = 0; i < pastas.Count; i++) {
+                Organizador.OrganizaPastas(caminho, pastas[i]);
             }
-            MessageBox.Show("Arquivos movidos");
+            MessageBox.Show("Pastas organizadas");
 
+            for (int i = 0; i < arquivos.Count; i++) {
+                Organizador.OrganizaArquivos(caminho, arquivos[i]);
+            }
+            MessageBox.Show("Arquivos organizados");
         }
 
         private void btn_limpar_Click(object sender, EventArgs e) {

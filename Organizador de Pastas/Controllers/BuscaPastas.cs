@@ -12,7 +12,7 @@ namespace Organizador_de_Pastas.Controllers {
             string[] pastas = Directory.GetDirectories(diretorio);
 
             foreach (string pasta in pastas) {
-                listaDePastas.Add(pasta.Substring(diretorio.Length+1));
+                listaDePastas.Add(pasta.Substring(diretorio.Length));
             }
 
             return listaDePastas;

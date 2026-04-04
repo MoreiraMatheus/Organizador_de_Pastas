@@ -13,7 +13,7 @@ namespace Organizador_de_Pastas.Controllers {
             List<String> pastas = new List<String>();
 
             pastas.Add("Documentos");
-            pastas.Add("Múscias");
+            pastas.Add("Músicas");
             pastas.Add("Fotos");
             pastas.Add("Vídeos");
             pastas.Add("Planilhas");

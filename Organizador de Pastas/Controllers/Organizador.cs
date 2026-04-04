@@ -7,8 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Organizador_de_Pastas.Controllers {
-    static internal class MoveArquivos {
-        static public void separar(string caminhoOrigem, string arquivo) {
+    static internal class Organizador {
+        static public void OrganizaArquivos(string caminhoOrigem, string arquivo) {
             //TODO esse código não me parece nada otimizado, refatorar ele
 
             //Essas variáveis acredito que tem como compactar em uma coisa só, contendo as extensões, os nomes dos diretórios e as quantidades
@@ -74,6 +74,14 @@ namespace Organizador_de_Pastas.Controllers {
             mensagem += $"Outros Arquivos: {quantidadeOutros}";
 
             //MessageBox.Show($"Arquivos movidos com sucesso!\nSendo eles:{mensagem}");
+        }
+
+        static public void OrganizaPastas(string caminhoOrigem, string pasta) {
+            string[] pastasDoPrograma = { "Documentos", "Músicas", "Fotos", "Vídeos", "Planilhas", "Aplicativos", "Outros Arquivos", "Pastas" };
+            if (!pastasDoPrograma.Contains(pasta)) {
+                Directory.Move(caminhoOrigem + pasta, caminhoOrigem + "Pastas\\" + pasta);
+                MessageBox.Show("Pasta movida");
+            }
         }
     }
 }

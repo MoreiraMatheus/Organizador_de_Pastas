@@ -16,9 +16,5 @@ namespace Organizador_de_Pastas.Controllers {
 
             return listaDeArquivos;
         }
-
-        static public string DescobreExtensao(string arquivo) {
-            return arquivo.Substring(arquivo.IndexOf("."));
-        }
     }
 }

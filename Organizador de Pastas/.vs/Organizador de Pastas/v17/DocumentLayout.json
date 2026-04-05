@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\f_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|solutionrelative:f_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\organizador_de_pastas\\organizador de pastas\\f_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54BE1E47-A725-401D-8AD0-2FA36ADE1FBC}|Organizador de Pastas.csproj|solutionrelative:f_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "F_Main.cs",
+              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\F_Main.cs",
+              "RelativeDocumentMoniker": "F_Main.cs",
+              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\F_Main.cs",
+              "RelativeToolTip": "F_Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T19:14:31.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "F_Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\F_Main.cs",
+              "RelativeDocumentMoniker": "F_Main.cs",
+              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\Organizador_de_Pastas\\Organizador de Pastas\\F_Main.cs [Design]",
+              "RelativeToolTip": "F_Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:27:58.507Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

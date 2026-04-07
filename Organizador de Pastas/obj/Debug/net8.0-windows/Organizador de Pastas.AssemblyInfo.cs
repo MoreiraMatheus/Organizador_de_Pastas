@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Organizador de Pastas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45fca9efd1dc07cbb72a32ca13373405f88bd808")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+461a0cb5c5a14a49584b6cc57b37721028c8dbcf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Organizador de Pastas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Organizador de Pastas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,8 +5,7 @@ namespace Organizador_de_Pastas
     public partial class F_Main : Form {
         public F_Main() {
             InitializeComponent();
-
-            
+            //TODO ao iniciar o formulário carregar as opções de pastas que o usuário terá para criar na guia de configurações
         }
 
         private void btn_selecionar_pasta_Click(object sender, EventArgs e) {
@@ -33,6 +32,11 @@ namespace Organizador_de_Pastas
 
         private void btn_limpar_Click(object sender, EventArgs e) {
             tb_caminho.Text = string.Empty;
+        }
+
+        private void btn_salvar_Click(object sender, EventArgs e) {
+            TiposValidos.atualizaTipos();
+            
         }
     }
 }

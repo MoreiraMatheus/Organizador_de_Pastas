@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace Organizador_de_Pastas.Controllers {
     static class TiposValidos {
         static internal TipoDocumento[] tiposPadroes = [
-            //TODO
             new TipoDocumento("Documentos", [".docx", ".pdf", ".html"]),
             new TipoDocumento("Músicas", [".mp3"]),
             new TipoDocumento("Fotos", [".jpg", ".jpeg", ".img", ".ico", ".png"]),
@@ -16,8 +15,8 @@ namespace Organizador_de_Pastas.Controllers {
             new TipoDocumento("Aplicativos", [".exe"])
         ];
 
-        static public void atualizaTipos() {
-            MessageBox.Show("Tudo joia!");
+        static public void setTipos(TipoDocumento[] novosTipos) {
+            tiposPadroes = novosTipos;
         }
 
         static public TipoDocumento[] getInfo() {

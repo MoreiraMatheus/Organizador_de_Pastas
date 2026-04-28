@@ -35,8 +35,7 @@ namespace Organizador_de_Pastas
         }
 
         private void btn_salvar_Click(object sender, EventArgs e) {
-            TiposValidos.atualizaTipos();
-            
+            MessageBox.Show("Tudo joia!");
         }
     }
 }

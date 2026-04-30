@@ -35,18 +35,7 @@
             fbd_Bucasdor = new FolderBrowserDialog();
             btn_limpar = new Button();
             toolTipBotoes = new ToolTip(components);
-            tabControl1 = new TabControl();
-            tabPage_organizer = new TabPage();
-            label_directory = new Label();
-            tabPage_config = new TabPage();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            checkBox7 = new CheckBox();
-            checkBox6 = new CheckBox();
-            checkBox5 = new CheckBox();
-            checkBox4 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox2 = new CheckBox();
-            button1 = new Button();
+            br = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -60,8 +49,20 @@
             button12 = new Button();
             button13 = new Button();
             button14 = new Button();
+            tabControl1 = new TabControl();
+            tabPage_organizer = new TabPage();
+            label_directory = new Label();
+            tabPage_config = new TabPage();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            checkBox7 = new CheckBox();
+            checkBox6 = new CheckBox();
+            checkBox5 = new CheckBox();
+            checkBox4 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox2 = new CheckBox();
             checkBox1 = new CheckBox();
             panel1 = new Panel();
+            button15 = new Button();
             btn_salvar = new Button();
             btn_cancelar = new Button();
             lb_tipos = new Label();
@@ -76,7 +77,7 @@
             // 
             btn_selecionar_pasta.BackgroundImage = (Image)resources.GetObject("btn_selecionar_pasta.BackgroundImage");
             btn_selecionar_pasta.BackgroundImageLayout = ImageLayout.Zoom;
-            btn_selecionar_pasta.Location = new Point(99, 102);
+            btn_selecionar_pasta.Location = new Point(35, 70);
             btn_selecionar_pasta.Margin = new Padding(4);
             btn_selecionar_pasta.Name = "btn_selecionar_pasta";
             btn_selecionar_pasta.Size = new Size(30, 30);
@@ -89,16 +90,16 @@
             // 
             tb_caminho.Enabled = false;
             tb_caminho.Font = new Font("Segoe UI", 11F);
-            tb_caminho.Location = new Point(97, 67);
-            tb_caminho.Margin = new Padding(4);
+            tb_caminho.Location = new Point(35, 35);
+            tb_caminho.Margin = new Padding(32, 4, 32, 4);
             tb_caminho.Name = "tb_caminho";
             tb_caminho.ReadOnly = true;
-            tb_caminho.Size = new Size(345, 27);
+            tb_caminho.Size = new Size(478, 27);
             tb_caminho.TabIndex = 0;
             // 
             // btn_organizar
             // 
-            btn_organizar.Location = new Point(175, 102);
+            btn_organizar.Location = new Point(111, 70);
             btn_organizar.Margin = new Padding(4);
             btn_organizar.Name = "btn_organizar";
             btn_organizar.Size = new Size(100, 30);
@@ -118,7 +119,7 @@
             // 
             btn_limpar.BackgroundImage = (Image)resources.GetObject("btn_limpar.BackgroundImage");
             btn_limpar.BackgroundImageLayout = ImageLayout.Zoom;
-            btn_limpar.Location = new Point(137, 102);
+            btn_limpar.Location = new Point(73, 70);
             btn_limpar.Margin = new Padding(4);
             btn_limpar.Name = "btn_limpar";
             btn_limpar.Size = new Size(30, 30);
@@ -126,6 +127,174 @@
             toolTipBotoes.SetToolTip(btn_limpar, "Limpar pasta");
             btn_limpar.UseVisualStyleBackColor = true;
             btn_limpar.Click += btn_limpar_Click;
+            // 
+            // br
+            // 
+            br.Dock = DockStyle.Fill;
+            br.Location = new Point(436, 3);
+            br.Name = "br";
+            br.Size = new Size(71, 30);
+            br.TabIndex = 0;
+            br.Text = "Remover";
+            toolTipBotoes.SetToolTip(br, "Remover pasta");
+            br.UseVisualStyleBackColor = true;
+            br.Click += btn_remover;
+            // 
+            // button2
+            // 
+            button2.Dock = DockStyle.Fill;
+            button2.Location = new Point(436, 39);
+            button2.Name = "button2";
+            button2.Size = new Size(71, 30);
+            button2.TabIndex = 1;
+            button2.Text = "Remover";
+            toolTipBotoes.SetToolTip(button2, "Remover pasta");
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += btn_remover;
+            // 
+            // button3
+            // 
+            button3.Dock = DockStyle.Fill;
+            button3.Location = new Point(436, 75);
+            button3.Name = "button3";
+            button3.Size = new Size(71, 30);
+            button3.TabIndex = 2;
+            button3.Text = "Remover";
+            toolTipBotoes.SetToolTip(button3, "Remover pasta");
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += btn_remover;
+            // 
+            // button4
+            // 
+            button4.Dock = DockStyle.Fill;
+            button4.Location = new Point(436, 111);
+            button4.Name = "button4";
+            button4.Size = new Size(71, 30);
+            button4.TabIndex = 3;
+            button4.Text = "Remover";
+            toolTipBotoes.SetToolTip(button4, "Remover pasta");
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += btn_remover;
+            // 
+            // button5
+            // 
+            button5.Dock = DockStyle.Fill;
+            button5.Location = new Point(436, 147);
+            button5.Name = "button5";
+            button5.Size = new Size(71, 30);
+            button5.TabIndex = 4;
+            button5.Text = "Remover";
+            toolTipBotoes.SetToolTip(button5, "Remover pasta");
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += btn_remover;
+            // 
+            // button6
+            // 
+            button6.Dock = DockStyle.Fill;
+            button6.Location = new Point(436, 183);
+            button6.Name = "button6";
+            button6.Size = new Size(71, 30);
+            button6.TabIndex = 5;
+            button6.Text = "Remover";
+            toolTipBotoes.SetToolTip(button6, "Remover pasta");
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += btn_remover;
+            // 
+            // button7
+            // 
+            button7.Dock = DockStyle.Fill;
+            button7.Location = new Point(436, 219);
+            button7.Name = "button7";
+            button7.Size = new Size(71, 33);
+            button7.TabIndex = 6;
+            button7.Text = "Remover";
+            toolTipBotoes.SetToolTip(button7, "Remover pasta");
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += btn_remover;
+            // 
+            // button8
+            // 
+            button8.Dock = DockStyle.Fill;
+            button8.Location = new Point(360, 3);
+            button8.Name = "button8";
+            button8.Size = new Size(70, 30);
+            button8.TabIndex = 7;
+            button8.Text = "Editar";
+            toolTipBotoes.SetToolTip(button8, "Editar extensões");
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += btn_editar;
+            // 
+            // button9
+            // 
+            button9.Dock = DockStyle.Fill;
+            button9.Location = new Point(360, 39);
+            button9.Name = "button9";
+            button9.Size = new Size(70, 30);
+            button9.TabIndex = 8;
+            button9.Text = "Editar";
+            toolTipBotoes.SetToolTip(button9, "Editar extensões");
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += btn_editar;
+            // 
+            // button10
+            // 
+            button10.Dock = DockStyle.Fill;
+            button10.Location = new Point(360, 75);
+            button10.Name = "button10";
+            button10.Size = new Size(70, 30);
+            button10.TabIndex = 9;
+            button10.Text = "Editar";
+            toolTipBotoes.SetToolTip(button10, "Editar extensões");
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += btn_editar;
+            // 
+            // button11
+            // 
+            button11.Dock = DockStyle.Fill;
+            button11.Location = new Point(360, 111);
+            button11.Name = "button11";
+            button11.Size = new Size(70, 30);
+            button11.TabIndex = 10;
+            button11.Text = "Editar";
+            toolTipBotoes.SetToolTip(button11, "Editar extensões");
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += btn_editar;
+            // 
+            // button12
+            // 
+            button12.Dock = DockStyle.Fill;
+            button12.Location = new Point(360, 147);
+            button12.Name = "button12";
+            button12.Size = new Size(70, 30);
+            button12.TabIndex = 11;
+            button12.Text = "Editar";
+            toolTipBotoes.SetToolTip(button12, "Editar extensões");
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += btn_editar;
+            // 
+            // button13
+            // 
+            button13.Dock = DockStyle.Fill;
+            button13.Location = new Point(360, 183);
+            button13.Name = "button13";
+            button13.Size = new Size(70, 30);
+            button13.TabIndex = 12;
+            button13.Text = "Editar";
+            toolTipBotoes.SetToolTip(button13, "Editar extensões");
+            button13.UseVisualStyleBackColor = true;
+            button13.Click += btn_editar;
+            // 
+            // button14
+            // 
+            button14.Dock = DockStyle.Fill;
+            button14.Location = new Point(360, 219);
+            button14.Name = "button14";
+            button14.Size = new Size(70, 33);
+            button14.TabIndex = 13;
+            button14.Text = "Editar";
+            toolTipBotoes.SetToolTip(button14, "Editar extensões");
+            button14.UseVisualStyleBackColor = true;
+            button14.Click += btn_editar;
             // 
             // tabControl1
             // 
@@ -156,7 +325,8 @@
             // label_directory
             // 
             label_directory.AutoSize = true;
-            label_directory.Location = new Point(99, 48);
+            label_directory.Location = new Point(35, 16);
+            label_directory.Margin = new Padding(32, 0, 3, 0);
             label_directory.Name = "label_directory";
             label_directory.Size = new Size(56, 15);
             label_directory.TabIndex = 4;
@@ -187,7 +357,7 @@
             tableLayoutPanel1.Controls.Add(checkBox4, 0, 3);
             tableLayoutPanel1.Controls.Add(checkBox3, 0, 2);
             tableLayoutPanel1.Controls.Add(checkBox2, 0, 1);
-            tableLayoutPanel1.Controls.Add(button1, 2, 0);
+            tableLayoutPanel1.Controls.Add(br, 2, 0);
             tableLayoutPanel1.Controls.Add(button2, 2, 1);
             tableLayoutPanel1.Controls.Add(button3, 2, 2);
             tableLayoutPanel1.Controls.Add(button4, 2, 3);
@@ -219,6 +389,8 @@
             // checkBox7
             // 
             checkBox7.AutoSize = true;
+            checkBox7.Checked = true;
+            checkBox7.CheckState = CheckState.Checked;
             checkBox7.Dock = DockStyle.Fill;
             checkBox7.Location = new Point(3, 219);
             checkBox7.Name = "checkBox7";
@@ -230,6 +402,8 @@
             // checkBox6
             // 
             checkBox6.AutoSize = true;
+            checkBox6.Checked = true;
+            checkBox6.CheckState = CheckState.Checked;
             checkBox6.Dock = DockStyle.Fill;
             checkBox6.Location = new Point(3, 183);
             checkBox6.Name = "checkBox6";
@@ -241,6 +415,8 @@
             // checkBox5
             // 
             checkBox5.AutoSize = true;
+            checkBox5.Checked = true;
+            checkBox5.CheckState = CheckState.Checked;
             checkBox5.Dock = DockStyle.Fill;
             checkBox5.Location = new Point(3, 147);
             checkBox5.Name = "checkBox5";
@@ -252,6 +428,8 @@
             // checkBox4
             // 
             checkBox4.AutoSize = true;
+            checkBox4.Checked = true;
+            checkBox4.CheckState = CheckState.Checked;
             checkBox4.Dock = DockStyle.Fill;
             checkBox4.Location = new Point(3, 111);
             checkBox4.Name = "checkBox4";
@@ -263,6 +441,8 @@
             // checkBox3
             // 
             checkBox3.AutoSize = true;
+            checkBox3.Checked = true;
+            checkBox3.CheckState = CheckState.Checked;
             checkBox3.Dock = DockStyle.Fill;
             checkBox3.Location = new Point(3, 75);
             checkBox3.Name = "checkBox3";
@@ -274,6 +454,8 @@
             // checkBox2
             // 
             checkBox2.AutoSize = true;
+            checkBox2.Checked = true;
+            checkBox2.CheckState = CheckState.Checked;
             checkBox2.Dock = DockStyle.Fill;
             checkBox2.Location = new Point(3, 39);
             checkBox2.Name = "checkBox2";
@@ -282,149 +464,11 @@
             checkBox2.Text = "Músicas";
             checkBox2.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            button1.Dock = DockStyle.Fill;
-            button1.Location = new Point(436, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(71, 30);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Dock = DockStyle.Fill;
-            button2.Location = new Point(436, 39);
-            button2.Name = "button2";
-            button2.Size = new Size(71, 30);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Dock = DockStyle.Fill;
-            button3.Location = new Point(436, 75);
-            button3.Name = "button3";
-            button3.Size = new Size(71, 30);
-            button3.TabIndex = 2;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Dock = DockStyle.Fill;
-            button4.Location = new Point(436, 111);
-            button4.Name = "button4";
-            button4.Size = new Size(71, 30);
-            button4.TabIndex = 3;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Dock = DockStyle.Fill;
-            button5.Location = new Point(436, 147);
-            button5.Name = "button5";
-            button5.Size = new Size(71, 30);
-            button5.TabIndex = 4;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            button6.Dock = DockStyle.Fill;
-            button6.Location = new Point(436, 183);
-            button6.Name = "button6";
-            button6.Size = new Size(71, 30);
-            button6.TabIndex = 5;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            button7.Dock = DockStyle.Fill;
-            button7.Location = new Point(436, 219);
-            button7.Name = "button7";
-            button7.Size = new Size(71, 33);
-            button7.TabIndex = 6;
-            button7.Text = "button7";
-            button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.Dock = DockStyle.Fill;
-            button8.Location = new Point(360, 3);
-            button8.Name = "button8";
-            button8.Size = new Size(70, 30);
-            button8.TabIndex = 7;
-            button8.Text = "button8";
-            button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            button9.Dock = DockStyle.Fill;
-            button9.Location = new Point(360, 39);
-            button9.Name = "button9";
-            button9.Size = new Size(70, 30);
-            button9.TabIndex = 8;
-            button9.Text = "button9";
-            button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            button10.Dock = DockStyle.Fill;
-            button10.Location = new Point(360, 75);
-            button10.Name = "button10";
-            button10.Size = new Size(70, 30);
-            button10.TabIndex = 9;
-            button10.Text = "button10";
-            button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            button11.Dock = DockStyle.Fill;
-            button11.Location = new Point(360, 111);
-            button11.Name = "button11";
-            button11.Size = new Size(70, 30);
-            button11.TabIndex = 10;
-            button11.Text = "button11";
-            button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            button12.Dock = DockStyle.Fill;
-            button12.Location = new Point(360, 147);
-            button12.Name = "button12";
-            button12.Size = new Size(70, 30);
-            button12.TabIndex = 11;
-            button12.Text = "button12";
-            button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            button13.Dock = DockStyle.Fill;
-            button13.Location = new Point(360, 183);
-            button13.Name = "button13";
-            button13.Size = new Size(70, 30);
-            button13.TabIndex = 12;
-            button13.Text = "button13";
-            button13.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            button14.Dock = DockStyle.Fill;
-            button14.Location = new Point(360, 219);
-            button14.Name = "button14";
-            button14.Size = new Size(70, 33);
-            button14.TabIndex = 13;
-            button14.Text = "button14";
-            button14.UseVisualStyleBackColor = true;
-            // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
+            checkBox1.Checked = true;
+            checkBox1.CheckState = CheckState.Checked;
             checkBox1.Dock = DockStyle.Fill;
             checkBox1.Location = new Point(3, 3);
             checkBox1.Name = "checkBox1";
@@ -435,6 +479,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(button15);
             panel1.Controls.Add(btn_salvar);
             panel1.Controls.Add(btn_cancelar);
             panel1.Dock = DockStyle.Bottom;
@@ -443,6 +488,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(542, 48);
             panel1.TabIndex = 10;
+            // 
+            // button15
+            // 
+            button15.Location = new Point(8, 13);
+            button15.Margin = new Padding(8, 3, 8, 3);
+            button15.Name = "button15";
+            button15.Size = new Size(75, 23);
+            button15.TabIndex = 11;
+            button15.Text = "Novo";
+            button15.UseVisualStyleBackColor = true;
             // 
             // btn_salvar
             // 
@@ -515,7 +570,7 @@
         public TabControl tabControl1;
         private Panel panel1;
         private TableLayoutPanel tableLayoutPanel1;
-        private Button button1;
+        private Button br;
         private Button button2;
         private Button button3;
         private Button button4;
@@ -537,5 +592,6 @@
         private CheckBox checkBox2;
         private CheckBox checkBox1;
         private Button btn_salvar;
+        private Button button15;
     }
 }
